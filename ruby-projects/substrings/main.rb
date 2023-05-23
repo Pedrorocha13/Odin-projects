@@ -10,3 +10,6 @@ def substrings (phrase, dictionary)
     puts hash 
 end
 substrings(phrase, dictionary)
+
+teste = %w[pauy sih ijsih fdpw]
+puts teste
