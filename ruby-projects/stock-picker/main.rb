@@ -12,9 +12,10 @@ def stock(stocks)
     elsif sell_price < (element - min_price)
       profit = element - min_price
       sell_price = element
+
       buy_price = stocks.index(min_price)
     end
   end
-  puts buy_price,sell_price
+  [buy_price,stocks.index(sell_price)]
 end
 stock([17,3,6,9,15,8,6,1,15])
